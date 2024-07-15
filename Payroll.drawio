@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T18:10:38.833Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="GRHJ1dF46cGu4MZ0Cmpr" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T18:11:14.542Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="1Z5y5igSecj-8B8cUq-I" version="24.6.5" type="github">
   <diagram name="Page-1" id="35ZLZ_sFQuxcxLtexmRZ">
     <mxGraphModel dx="351" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HLrQwmdhktpu1qKYuhY9-1" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HLrQwmdhktpu1qKYuhY9-1" value="&lt;div&gt;Payroll&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="240" width="370" height="270" as="geometry" />
         </mxCell>
         <mxCell id="HLrQwmdhktpu1qKYuhY9-2" value="&lt;div&gt;- employeeID: int[]&lt;/div&gt;&lt;div&gt;- hours: int[]&lt;/div&gt;&lt;div&gt;- payRate: double[]&lt;br&gt;&lt;/div&gt;&lt;div&gt;- wages: double[]&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HLrQwmdhktpu1qKYuhY9-1">
