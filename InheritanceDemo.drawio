@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T18:23:21.343Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="n4LDM4VXQdaTxYjFjaGY" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-17T18:25:13.692Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="ap3uecRSU7PJfRxNynI0" version="24.7.1" type="github">
   <diagram name="Page-1" id="X8k1iSlAs_I5s1KEsuCr">
-    <mxGraphModel dx="2387" dy="1633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3191" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,6 +51,54 @@
         </mxCell>
         <mxCell id="nrs37uHz-20d6Hq1ExjB-20" value="&lt;div&gt;+ TeamLeader(name: String, employeeNumber: String, hireDate: String, shift: int, hourlyPayRate: double, fixedMontlyBonux: int, trainingHoursRequired: int)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getFixedMontlyBonus(): double&lt;/div&gt;&lt;div&gt;+ getTrainingHoursRequired(): double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setFixedMontlyBonus(fixedMonthlyBonus: int)&lt;/div&gt;&lt;div&gt;+ setTrainingHours(trainingHoursRequired: int)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nrs37uHz-20d6Hq1ExjB-17">
           <mxGeometry y="78" width="580" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-21" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.002;entryY=0.928;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nrs37uHz-20d6Hq1ExjB-6" target="nrs37uHz-20d6Hq1ExjB-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-370" y="510" as="sourcePoint" />
+            <mxPoint x="-210" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-22" value="parent" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="nrs37uHz-20d6Hq1ExjB-21">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-23" value="child" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="nrs37uHz-20d6Hq1ExjB-21">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="39" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-24" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.686;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nrs37uHz-20d6Hq1ExjB-6" target="nrs37uHz-20d6Hq1ExjB-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="620" as="sourcePoint" />
+            <mxPoint x="360" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-25" value="parent" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="nrs37uHz-20d6Hq1ExjB-24">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-26" value="child" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="nrs37uHz-20d6Hq1ExjB-24">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-27" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.998;exitY=0.645;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nrs37uHz-20d6Hq1ExjB-10" target="nrs37uHz-20d6Hq1ExjB-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="860" as="sourcePoint" />
+            <mxPoint x="770" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-28" value="parent" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="nrs37uHz-20d6Hq1ExjB-27">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-29" value="child" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="nrs37uHz-20d6Hq1ExjB-27">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-6" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
