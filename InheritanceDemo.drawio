@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T18:08:45.659Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.7.1" etag="ZZjfrmJdBnFqQb4wMjKF" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-17T18:23:21.343Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="n4LDM4VXQdaTxYjFjaGY" version="24.7.1" type="github">
   <diagram name="Page-1" id="X8k1iSlAs_I5s1KEsuCr">
-    <mxGraphModel>
+    <mxGraphModel dx="2387" dy="1633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-5" value="Employee" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="430" width="410" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-6" value="&lt;div&gt;- name: String&lt;/div&gt;&lt;div&gt;- employeeNumber: String&lt;/div&gt;&lt;div&gt;- hireDate: String&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nrs37uHz-20d6Hq1ExjB-5">
+          <mxGeometry y="26" width="410" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="nrs37uHz-20d6Hq1ExjB-5">
+          <mxGeometry y="80" width="410" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-8" value="&lt;div&gt;+ Employee(name: String, employeeNumber: String, hireDate: String)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getName(): String&lt;/div&gt;&lt;div&gt;+ getEmployeeNumber(): String&lt;/div&gt;&lt;div&gt;+ getHireDate(): String&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setName(name: String)&lt;/div&gt;&lt;div&gt;+ setEmployeeNumber(employeeNumber: String)&lt;/div&gt;&lt;div&gt;+ setHireDate(hireDate: String)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nrs37uHz-20d6Hq1ExjB-5">
+          <mxGeometry y="88" width="410" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-9" value="ProductionWorker" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="680" width="520" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-10" value="&lt;div&gt;- shift: int&lt;/div&gt;&lt;div&gt;- hourlyPayRate: double&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nrs37uHz-20d6Hq1ExjB-9">
+          <mxGeometry y="26" width="520" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="nrs37uHz-20d6Hq1ExjB-9">
+          <mxGeometry y="70" width="520" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-12" value="&lt;div&gt;+ ProductionWorker(name: String, employeeNumber: String, hireDate: String, shift: int, hourlyPayRate: double)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getShift: int&lt;/div&gt;&lt;div&gt;+ getHourlyPayRate: double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setShift(shift: int)&lt;/div&gt;&lt;div&gt;+ setHourlyPayRate(hourlyPayRate: double)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nrs37uHz-20d6Hq1ExjB-9">
+          <mxGeometry y="78" width="520" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-13" value="ShiftSupervisor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="680" width="440" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-14" value="&lt;div&gt;- annualSalary: double&lt;/div&gt;&lt;div&gt;- annualProductionRate: double&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nrs37uHz-20d6Hq1ExjB-13">
+          <mxGeometry y="26" width="440" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="nrs37uHz-20d6Hq1ExjB-13">
+          <mxGeometry y="70" width="440" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-16" value="&lt;div&gt;+ ShiftSupervisor(name: String, employeeNumber: String, hireDate: String, annualSalary: double, annualProductionBonus: double)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getAnnualSalary(): double&lt;/div&gt;&lt;div&gt;+ getAnnualProductionBonus(): double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setAnnualSalary(annualSalary: double)&lt;/div&gt;&lt;div&gt;+ setAnnualProductionBonus(annualProductionBonus: double)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nrs37uHz-20d6Hq1ExjB-13">
+          <mxGeometry y="78" width="440" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-17" value="TeamLeader" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="920" width="580" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-18" value="&lt;div&gt;- fixedMontlyBonus: int&lt;/div&gt;&lt;div&gt;- traingHoursRequired: int&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nrs37uHz-20d6Hq1ExjB-17">
+          <mxGeometry y="26" width="580" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="nrs37uHz-20d6Hq1ExjB-17">
+          <mxGeometry y="70" width="580" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nrs37uHz-20d6Hq1ExjB-20" value="&lt;div&gt;+ TeamLeader(name: String, employeeNumber: String, hireDate: String, shift: int, hourlyPayRate: double, fixedMontlyBonux: int, trainingHoursRequired: int)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getFixedMontlyBonus(): double&lt;/div&gt;&lt;div&gt;+ getTrainingHoursRequired(): double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setFixedMontlyBonus(fixedMonthlyBonus: int)&lt;/div&gt;&lt;div&gt;+ setTrainingHours(trainingHoursRequired: int)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nrs37uHz-20d6Hq1ExjB-17">
+          <mxGeometry y="78" width="580" height="142" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
