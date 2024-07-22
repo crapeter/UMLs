@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-18T03:12:42.732Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="UPFrNPglNROizpBioFdY" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-22T18:04:53.949Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="whNgarVhUvoAg2Ygk8Dc" version="24.7.1" type="github">
   <diagram name="Page-1" id="fTPm5DQP8wG06u_MqmHy">
-    <mxGraphModel dx="3098" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2026" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,16 +17,16 @@
           <mxGeometry y="78" width="240" height="82" as="geometry" />
         </mxCell>
         <mxCell id="OHdOC4P4XVelpUxqnQEv-5" value="CreateLoginPanel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1040" width="160" height="80" as="geometry" />
+          <mxGeometry x="40" y="1040" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OHdOC4P4XVelpUxqnQEv-8" value="&lt;div&gt;+ CreateLoginPage()&lt;/div&gt;&lt;div&gt;- createPanel()&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OHdOC4P4XVelpUxqnQEv-5" vertex="1">
-          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        <mxCell id="OHdOC4P4XVelpUxqnQEv-8" value="&lt;div&gt;+ CreateLoginPage()&lt;/div&gt;&lt;div&gt;- createPanel()&lt;br&gt;&lt;/div&gt;&lt;div&gt;- formatButton(button: JButton)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OHdOC4P4XVelpUxqnQEv-5" vertex="1">
+          <mxGeometry y="26" width="200" height="54" as="geometry" />
         </mxCell>
         <mxCell id="OHdOC4P4XVelpUxqnQEv-13" value="CreateAccountPanel" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="800" width="160" height="80" as="geometry" />
+          <mxGeometry x="320" y="800" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OHdOC4P4XVelpUxqnQEv-14" value="&lt;div&gt;+ CreateAccountPanel()&lt;/div&gt;&lt;div&gt;- createPanel()&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OHdOC4P4XVelpUxqnQEv-13" vertex="1">
-          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        <mxCell id="OHdOC4P4XVelpUxqnQEv-14" value="&lt;div&gt;+ CreateAccountPanel()&lt;/div&gt;&lt;div&gt;- createPanel()&lt;/div&gt;&lt;div&gt;- formatButton(button: JButton)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OHdOC4P4XVelpUxqnQEv-13" vertex="1">
+          <mxGeometry y="26" width="200" height="54" as="geometry" />
         </mxCell>
         <mxCell id="OHdOC4P4XVelpUxqnQEv-17" value="CreditCard" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-880" y="480" width="200" height="160" as="geometry" />
@@ -85,7 +85,7 @@
         <mxCell id="OHdOC4P4XVelpUxqnQEv-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="OHdOC4P4XVelpUxqnQEv-39" vertex="1">
           <mxGeometry y="52" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="OHdOC4P4XVelpUxqnQEv-42" value="&lt;div&gt;+ SecurityQuestionPanel(customer: Customer)&lt;/div&gt;&lt;div&gt;- createPanel()&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OHdOC4P4XVelpUxqnQEv-39" vertex="1">
+        <mxCell id="OHdOC4P4XVelpUxqnQEv-42" value="&lt;div&gt;+ SecurityQuestionPanel(customer: Customer)&lt;/div&gt;&lt;div&gt;- createPanel()&lt;br&gt;&lt;/div&gt;&lt;div&gt;- formatButton(button: JButton)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OHdOC4P4XVelpUxqnQEv-39" vertex="1">
           <mxGeometry y="60" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OHdOC4P4XVelpUxqnQEv-43" value="ShopPanel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -97,7 +97,7 @@
         <mxCell id="OHdOC4P4XVelpUxqnQEv-45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="OHdOC4P4XVelpUxqnQEv-43" vertex="1">
           <mxGeometry y="80" width="480" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="OHdOC4P4XVelpUxqnQEv-46" value="&lt;div&gt;+ ShopPanel(customer: Customer)&lt;/div&gt;&lt;div&gt;+ createPanel()&lt;/div&gt;&lt;div&gt;+ createJLabel(text: String, price: double): JLabel&lt;/div&gt;&lt;div&gt;+ createJButton(text: String): JButton&lt;/div&gt;&lt;div&gt;+ itemAmountPanel(): JPanel&lt;/div&gt;&lt;div&gt;+ itemPanel(text: String, price: double): JPanel&lt;/div&gt;&lt;div&gt;+ setNewCreditCard()&lt;/div&gt;&lt;div&gt;+ resetNumbers(itemsPanel: JPanel)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OHdOC4P4XVelpUxqnQEv-43" vertex="1">
+        <mxCell id="OHdOC4P4XVelpUxqnQEv-46" value="&lt;div&gt;+ ShopPanel(customer: Customer)&lt;/div&gt;&lt;div&gt;+ createPanel()&lt;/div&gt;&lt;div&gt;+ createJLabel(text: String, price: double): JLabel&lt;/div&gt;&lt;div&gt;+ createJButton(text: String): JButton&lt;/div&gt;&lt;div&gt;+ itemAmountPanel(): JPanel&lt;/div&gt;&lt;div&gt;+ itemPanel(text: String, price: double): JPanel&lt;/div&gt;&lt;div&gt;+ setNewCreditCard()&lt;/div&gt;&lt;div&gt;+ resetNumbers(itemsPanel: JPanel)&lt;/div&gt;&lt;div&gt;- formatButton(button: JButton)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OHdOC4P4XVelpUxqnQEv-43" vertex="1">
           <mxGeometry y="88" width="480" height="152" as="geometry" />
         </mxCell>
         <mxCell id="OHdOC4P4XVelpUxqnQEv-47" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=-0.004;entryY=0.408;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="OHdOC4P4XVelpUxqnQEv-22" edge="1">
@@ -148,16 +148,16 @@
             <mxPoint x="490" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3-EhFzq7JAlXkYXdXlQW-1" value="App" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3-EhFzq7JAlXkYXdXlQW-1" value="App" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="1000" width="240" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="3-EhFzq7JAlXkYXdXlQW-2" value="&lt;div&gt;&lt;u&gt;- cardLayout: CardLayout&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;- cardPanel: JPanel&lt;/u&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3-EhFzq7JAlXkYXdXlQW-1">
+        <mxCell id="3-EhFzq7JAlXkYXdXlQW-2" value="&lt;div&gt;&lt;u&gt;- cardLayout: CardLayout&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;- cardPanel: JPanel&lt;/u&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3-EhFzq7JAlXkYXdXlQW-1" vertex="1">
           <mxGeometry y="26" width="240" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="3-EhFzq7JAlXkYXdXlQW-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="3-EhFzq7JAlXkYXdXlQW-1">
+        <mxCell id="3-EhFzq7JAlXkYXdXlQW-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="3-EhFzq7JAlXkYXdXlQW-1" vertex="1">
           <mxGeometry y="70" width="240" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="3-EhFzq7JAlXkYXdXlQW-4" value="&lt;div&gt;+ main(args: String[])&lt;/div&gt;&lt;div&gt;+ getCardPanel(): JPanel&lt;/div&gt;&lt;div&gt;+ getCardLayout(): CardLayout&lt;/div&gt;&lt;div&gt;+ addPlaceHolder(textField: JTextField, &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;placeHolder: String)&lt;/div&gt;&lt;div&gt;+ setupFrame()&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3-EhFzq7JAlXkYXdXlQW-1">
+        <mxCell id="3-EhFzq7JAlXkYXdXlQW-4" value="&lt;div&gt;+ main(args: String[])&lt;/div&gt;&lt;div&gt;+ getCardPanel(): JPanel&lt;/div&gt;&lt;div&gt;+ getCardLayout(): CardLayout&lt;/div&gt;&lt;div&gt;+ addPlaceHolder(textField: JTextField, &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;placeHolder: String)&lt;/div&gt;&lt;div&gt;+ setupFrame()&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="3-EhFzq7JAlXkYXdXlQW-1" vertex="1">
           <mxGeometry y="78" width="240" height="122" as="geometry" />
         </mxCell>
       </root>
