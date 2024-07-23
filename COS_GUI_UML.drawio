@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-22T18:04:53.949Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="whNgarVhUvoAg2Ygk8Dc" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-23T17:30:23.584Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="PWI-B0HAc02ezr4EdPoi" version="24.7.1" type="github">
   <diagram name="Page-1" id="fTPm5DQP8wG06u_MqmHy">
-    <mxGraphModel dx="2026" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2316" dy="213" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -89,16 +89,16 @@
           <mxGeometry y="60" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OHdOC4P4XVelpUxqnQEv-43" value="ShopPanel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-560" y="960" width="480" height="240" as="geometry" />
+          <mxGeometry x="-560" y="960" width="480" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="OHdOC4P4XVelpUxqnQEv-44" value="&lt;div&gt;- CUSTOMER: Customer&lt;/div&gt;&lt;div&gt;&lt;u&gt;+ itemsList: ArrayList&amp;lt;String&amp;gt;&lt;br&gt;+ prices: ArrayList&amp;lt;Double&amp;gt;&lt;/u&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OHdOC4P4XVelpUxqnQEv-43" vertex="1">
-          <mxGeometry y="26" width="480" height="54" as="geometry" />
+        <mxCell id="OHdOC4P4XVelpUxqnQEv-44" value="&lt;div&gt;- CUSTOMER: Customer&lt;/div&gt;&lt;div&gt;&lt;u&gt;+ itemsList: ArrayList&amp;lt;String&amp;gt;&lt;br&gt;+ prices: ArrayList&amp;lt;Double&amp;gt;&lt;/u&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ itemDescriptions: ArrayList&amp;lt;String&amp;gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OHdOC4P4XVelpUxqnQEv-43" vertex="1">
+          <mxGeometry y="26" width="480" height="74" as="geometry" />
         </mxCell>
         <mxCell id="OHdOC4P4XVelpUxqnQEv-45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="OHdOC4P4XVelpUxqnQEv-43" vertex="1">
-          <mxGeometry y="80" width="480" height="8" as="geometry" />
+          <mxGeometry y="100" width="480" height="8" as="geometry" />
         </mxCell>
         <mxCell id="OHdOC4P4XVelpUxqnQEv-46" value="&lt;div&gt;+ ShopPanel(customer: Customer)&lt;/div&gt;&lt;div&gt;+ createPanel()&lt;/div&gt;&lt;div&gt;+ createJLabel(text: String, price: double): JLabel&lt;/div&gt;&lt;div&gt;+ createJButton(text: String): JButton&lt;/div&gt;&lt;div&gt;+ itemAmountPanel(): JPanel&lt;/div&gt;&lt;div&gt;+ itemPanel(text: String, price: double): JPanel&lt;/div&gt;&lt;div&gt;+ setNewCreditCard()&lt;/div&gt;&lt;div&gt;+ resetNumbers(itemsPanel: JPanel)&lt;/div&gt;&lt;div&gt;- formatButton(button: JButton)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="OHdOC4P4XVelpUxqnQEv-43" vertex="1">
-          <mxGeometry y="88" width="480" height="152" as="geometry" />
+          <mxGeometry y="108" width="480" height="172" as="geometry" />
         </mxCell>
         <mxCell id="OHdOC4P4XVelpUxqnQEv-47" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=-0.004;entryY=0.408;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="OHdOC4P4XVelpUxqnQEv-22" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
