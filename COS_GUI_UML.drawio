@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.7.6">
   <diagram name="Page-1" id="fTPm5DQP8wG06u_MqmHy">
-    <mxGraphModel dx="2300" dy="288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2100" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="paJCLaprDeNDW_XptjoM-1" value="App" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-880" y="600" width="240" height="200" as="geometry" />
+          <mxGeometry x="200" y="600" width="240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="paJCLaprDeNDW_XptjoM-2" value="&lt;div&gt;&lt;u&gt;- mainStage: Stage&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;- customer: Customer&lt;br&gt;&lt;/u&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="paJCLaprDeNDW_XptjoM-1">
           <mxGeometry y="26" width="240" height="44" as="geometry" />
@@ -17,7 +17,7 @@
           <mxGeometry y="78" width="240" height="122" as="geometry" />
         </mxCell>
         <mxCell id="paJCLaprDeNDW_XptjoM-5" value="CreateAccount" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-880" y="840" width="400" height="160" as="geometry" />
+          <mxGeometry x="-320" y="1120" width="400" height="160" as="geometry" />
         </mxCell>
         <mxCell id="paJCLaprDeNDW_XptjoM-6" value="&lt;div&gt;&lt;u&gt;+ customer: ArrayList&amp;lt;Customer&amp;gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;+ ids: ArrayList&amp;lt;Integer&amp;gt;&lt;br&gt;&lt;/u&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="paJCLaprDeNDW_XptjoM-5">
           <mxGeometry y="26" width="400" height="44" as="geometry" />
@@ -29,7 +29,7 @@
           <mxGeometry y="78" width="400" height="82" as="geometry" />
         </mxCell>
         <mxCell id="paJCLaprDeNDW_XptjoM-17" value="CreditCard&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-880" y="1040" width="280" height="160" as="geometry" />
+          <mxGeometry x="-720" y="600" width="280" height="160" as="geometry" />
         </mxCell>
         <mxCell id="paJCLaprDeNDW_XptjoM-18" value="&lt;div&gt;- NUMBER: String&lt;/div&gt;&lt;div&gt;- balance: double&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="paJCLaprDeNDW_XptjoM-17">
           <mxGeometry y="26" width="280" height="44" as="geometry" />
@@ -51,6 +51,18 @@
         </mxCell>
         <mxCell id="paJCLaprDeNDW_XptjoM-24" value="&lt;div&gt;+ Customer(id: int, password: String, name: String, address: String, secQue: String, &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;secQueAns: String, creditCard: CreditCard)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getId(): int&lt;/div&gt;&lt;div&gt;+ getPassword(): String&lt;/div&gt;&lt;div&gt;+ getName(): String&lt;/div&gt;&lt;div&gt;+ getAddress(): String&lt;/div&gt;&lt;div&gt;+ getSecurityQuestion(): String&lt;/div&gt;&lt;div&gt;+ getSecurityQuestionAnswer(): String&lt;/div&gt;&lt;div&gt;+ getCurrentCard(): CreditCard&lt;/div&gt;&lt;div&gt;+ getCreditCards(): ArrayList&amp;lt;CreditCard&amp;gt;&lt;/div&gt;&lt;div&gt;+ getOrders(): ArrayList&amp;lt;Order&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setCurrentCard(currentCard: CreditCard): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ displayCreditCards(): String&lt;/div&gt;&lt;div&gt;+ displayOrders(): String&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="paJCLaprDeNDW_XptjoM-21">
           <mxGeometry y="178" width="480" height="262" as="geometry" />
+        </mxCell>
+        <mxCell id="paJCLaprDeNDW_XptjoM-26" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1.002;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="paJCLaprDeNDW_XptjoM-24" target="paJCLaprDeNDW_XptjoM-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-90" y="940" as="sourcePoint" />
+            <mxPoint x="70" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paJCLaprDeNDW_XptjoM-27" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1.003;exitY=0.009;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.002;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="paJCLaprDeNDW_XptjoM-22" target="paJCLaprDeNDW_XptjoM-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-30" y="710" as="sourcePoint" />
+            <mxPoint x="130" y="710" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
