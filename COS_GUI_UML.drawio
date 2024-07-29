@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.7.6">
   <diagram name="Page-1" id="fTPm5DQP8wG06u_MqmHy">
-    <mxGraphModel dx="2100" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1640" dy="-125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,6 +63,18 @@
             <mxPoint x="-30" y="710" as="sourcePoint" />
             <mxPoint x="130" y="710" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="paJCLaprDeNDW_XptjoM-28" value="LoginController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="600" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="paJCLaprDeNDW_XptjoM-29" value="&lt;div&gt;- userIdField: TextField&lt;/div&gt;&lt;div&gt;- passwordField: TextField&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="paJCLaprDeNDW_XptjoM-28">
+          <mxGeometry y="26" width="280" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="paJCLaprDeNDW_XptjoM-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="paJCLaprDeNDW_XptjoM-28">
+          <mxGeometry y="80" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="paJCLaprDeNDW_XptjoM-31" value="&lt;div&gt;# onLoginButtonClick(): void&lt;/div&gt;&lt;div&gt;# onRegisterButtonClick(): void&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="paJCLaprDeNDW_XptjoM-28">
+          <mxGeometry y="88" width="280" height="72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
