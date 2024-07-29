@@ -28,6 +28,18 @@
         <mxCell id="paJCLaprDeNDW_XptjoM-8" value="&lt;div&gt;&lt;u&gt;+ newAccount(id: int, password: String, name: String, address: String, &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;secQue: String, secQueAns: String, creditCard: CreditCard)&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;: boolean&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;+ notValidPassword(password: String): boolean&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;+ validateCreditCard(creditCard: String): boolean&lt;br&gt;&lt;/u&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="paJCLaprDeNDW_XptjoM-5">
           <mxGeometry y="78" width="400" height="82" as="geometry" />
         </mxCell>
+        <mxCell id="paJCLaprDeNDW_XptjoM-17" value="CreditCard&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="1040" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="paJCLaprDeNDW_XptjoM-18" value="&lt;div&gt;- NUMBER: String&lt;/div&gt;&lt;div&gt;- balance: double&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="paJCLaprDeNDW_XptjoM-17">
+          <mxGeometry y="26" width="280" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="paJCLaprDeNDW_XptjoM-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="paJCLaprDeNDW_XptjoM-17">
+          <mxGeometry y="70" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="paJCLaprDeNDW_XptjoM-20" value="&lt;div&gt;+ CreditCard(number: String)&lt;/div&gt;&lt;div&gt;+ getNumber(): String&lt;/div&gt;&lt;div&gt;+ getBalance(): double&lt;/div&gt;&lt;div&gt;+ charge(amount: double): boolean&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="paJCLaprDeNDW_XptjoM-17">
+          <mxGeometry y="78" width="280" height="82" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
