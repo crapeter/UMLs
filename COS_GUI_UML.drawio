@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.7.6">
   <diagram name="Page-1" id="fTPm5DQP8wG06u_MqmHy">
-    <mxGraphModel dx="1667" dy="142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2843" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -147,7 +147,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="paJCLaprDeNDW_XptjoM-55" value="ShopController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="600" width="480" height="294" as="geometry" />
+          <mxGeometry x="520" y="600" width="480" height="1000" as="geometry" />
         </mxCell>
         <mxCell id="paJCLaprDeNDW_XptjoM-56" value="&lt;div&gt;+ microfiberCount: Label&lt;/div&gt;&lt;div&gt;+ caseCount:Label&lt;/div&gt;&lt;div&gt;+ mousePadCount: Label&lt;/div&gt;&lt;div&gt;+ adapterCount: Label&lt;/div&gt;&lt;div&gt;+ speakerCount: Label&lt;/div&gt;&lt;div&gt;+ mouseCount: Label&lt;/div&gt;&lt;div&gt;+ driveCount: Label&lt;/div&gt;&lt;div&gt;+ keyboardCount: Label&lt;/div&gt;&lt;div&gt;+ smartCount: Label&lt;/div&gt;&lt;div&gt;+ bankCount: Label&lt;/div&gt;&lt;div&gt;+ deliveryTypeComboBox: ComboBox&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- deliveryType: String&lt;/div&gt;&lt;div&gt;- prices: ArrayList&amp;lt;Double&amp;gt;&lt;/div&gt;&lt;div&gt;- itemsList: ArrayList&amp;lt;String&amp;gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="paJCLaprDeNDW_XptjoM-55">
           <mxGeometry y="26" width="480" height="234" as="geometry" />
@@ -156,7 +156,7 @@
           <mxGeometry y="260" width="480" height="8" as="geometry" />
         </mxCell>
         <mxCell id="paJCLaprDeNDW_XptjoM-58" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="paJCLaprDeNDW_XptjoM-55">
-          <mxGeometry y="268" width="480" height="26" as="geometry" />
+          <mxGeometry y="268" width="480" height="732" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
