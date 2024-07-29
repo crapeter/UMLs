@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.7.6">
   <diagram name="Page-1" id="fTPm5DQP8wG06u_MqmHy">
-    <mxGraphModel dx="2843" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1372" dy="-42" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -155,7 +155,7 @@
         <mxCell id="paJCLaprDeNDW_XptjoM-57" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="paJCLaprDeNDW_XptjoM-55">
           <mxGeometry y="260" width="480" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="paJCLaprDeNDW_XptjoM-58" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="paJCLaprDeNDW_XptjoM-55">
+        <mxCell id="paJCLaprDeNDW_XptjoM-58" value="&lt;div&gt;+ initialize(): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;/*&amp;nbsp;&lt;/div&gt;&lt;div&gt;defined and bound to buttons created in the fxml file&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ onCheckoutButtonClicked(): void&lt;/div&gt;&lt;div&gt;+ onLogoutButtonClicked(): void&lt;/div&gt;&lt;div&gt;+ onViewOrderButtonClicked(): void&lt;/div&gt;&lt;div&gt;+ onViewCCButtonClicked(): void&lt;/div&gt;&lt;div&gt;*/&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ decrementCloths(): void&lt;/div&gt;&lt;div&gt;+ incrementCloths(): void&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ decrementCase(): void&lt;/div&gt;+ incrementCase(): void&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ decrementPad(): void&lt;/div&gt;+ incrementPad(): void&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ decrementAdapter(): void&lt;/div&gt;+ incrementAdapter(): void&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ decrementSpeaker(): void&lt;/div&gt;+ incrementSpeaker(): void&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ decrementMouse(): void&lt;/div&gt;+ incrementMouse(): void&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ decrementDrive(): void&lt;/div&gt;+ incrementDrive(): void&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ decrementKeyboard(): void&lt;/div&gt;+ incrementKeyboard(): void&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ decrementCloths(): void&lt;/div&gt;+ incrementCloths(): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="paJCLaprDeNDW_XptjoM-55">
           <mxGeometry y="268" width="480" height="732" as="geometry" />
         </mxCell>
       </root>
