@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" version="24.7.6">
   <diagram name="Page-1" id="fTPm5DQP8wG06u_MqmHy">
-    <mxGraphModel dx="2562" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2300" dy="288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,6 +39,18 @@
         </mxCell>
         <mxCell id="paJCLaprDeNDW_XptjoM-20" value="&lt;div&gt;+ CreditCard(number: String)&lt;/div&gt;&lt;div&gt;+ getNumber(): String&lt;/div&gt;&lt;div&gt;+ getBalance(): double&lt;/div&gt;&lt;div&gt;+ charge(amount: double): boolean&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="paJCLaprDeNDW_XptjoM-17">
           <mxGeometry y="78" width="280" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="paJCLaprDeNDW_XptjoM-21" value="Customer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="600" width="480" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="paJCLaprDeNDW_XptjoM-22" value="&lt;div&gt;- currentCard: CreditCard&lt;/div&gt;&lt;div&gt;- id: int&lt;/div&gt;&lt;div&gt;- password: String&lt;/div&gt;&lt;div&gt;- name: String&lt;/div&gt;&lt;div&gt;- address: String&lt;/div&gt;&lt;div&gt;- securityQuestion: String&lt;br&gt;&lt;/div&gt;&lt;div&gt;- securityQuestionAnswer: String&lt;/div&gt;&lt;div&gt;- creditCards: ArrayList&amp;lt;CreditCard&amp;gt;&lt;/div&gt;&lt;div&gt;- orders: ArrayList&amp;lt;Order&amp;gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="paJCLaprDeNDW_XptjoM-21">
+          <mxGeometry y="26" width="480" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="paJCLaprDeNDW_XptjoM-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="paJCLaprDeNDW_XptjoM-21">
+          <mxGeometry y="170" width="480" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="paJCLaprDeNDW_XptjoM-24" value="&lt;div&gt;+ Customer(id: int, password: String, name: String, address: String, secQue: String, &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;secQueAns: String, creditCard: CreditCard)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getId(): int&lt;/div&gt;&lt;div&gt;+ getPassword(): String&lt;/div&gt;&lt;div&gt;+ getName(): String&lt;/div&gt;&lt;div&gt;+ getAddress(): String&lt;/div&gt;&lt;div&gt;+ getSecurityQuestion(): String&lt;/div&gt;&lt;div&gt;+ getSecurityQuestionAnswer(): String&lt;/div&gt;&lt;div&gt;+ getCurrentCard(): CreditCard&lt;/div&gt;&lt;div&gt;+ getCreditCards(): ArrayList&amp;lt;CreditCard&amp;gt;&lt;/div&gt;&lt;div&gt;+ getOrders(): ArrayList&amp;lt;Order&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setCurrentCard(currentCard: CreditCard): void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ displayCreditCards(): String&lt;/div&gt;&lt;div&gt;+ displayOrders(): String&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="paJCLaprDeNDW_XptjoM-21">
+          <mxGeometry y="178" width="480" height="262" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
